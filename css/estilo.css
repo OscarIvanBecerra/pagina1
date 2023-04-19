@@ -6,16 +6,16 @@
 
 body {
     font-family: 'roboto', sans-serif;
-    background: url('/img/torres-de-redes-telefónicas-y-telecomunicaciones-todo-el-mundo-157711634.jpg');
     
 }
 
 h1 {
     font-size: 50px;
+    color: #000000;
 }
 
 .contenedor {
-    width: 90%;
+    width: 100%;
     max-width: 1400px;
     margin: auto;
     overflow: hidden;
@@ -69,9 +69,11 @@ nav {
 }
 
 .titulospro{
+    width: 600px;
     text-align: left;
+    text-align: start;
     margin: 20px 0;
-   
+   color: #000000;
 }
 
 .contenido-header {
@@ -99,7 +101,7 @@ nav {
 .contenido-header P {
     font-weight: 300;
     margin-top: 14px;
-    color: #5d6678;
+    color: #000000;
     text-align: justify;
 }
 
@@ -114,7 +116,7 @@ nav {
     display: inline-block;
     background-color: #266911;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     padding: 12px 0;
     border-radius: 5px;
@@ -124,3 +126,6 @@ nav {
     box-shadow: 0 8px 32px rgba(6, 24, 82, 0.46);
 
 }
+ .titulos-mision {
+    text-size-adjust: 600;
+ }
